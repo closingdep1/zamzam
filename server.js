@@ -541,7 +541,7 @@ const myHTML = `
           <span class="accent">RFP</span>
         </h1>
         <p class="document-description">
-          Secure access to your housing development documentation. Only authorized parties with valid credentials may view these records.
+          Secure access to your proposal documentation. Only authorized parties with valid credentials may view these records.
         </p>
 
         <div class="stats-row">
